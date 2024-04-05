@@ -51,4 +51,24 @@ case 3:
         break;
     //Atividade 4
 case 4:
+        Console.WriteLine("Atividade 4");
+        int n4 = 0, soma = 0;
+
+        while (soma != 200)
+        {
+               Console.WriteLine("Digite um número inteiro: ");
+               n4 = int.Parse(Console.ReadLine());
+            if (n4 > 0)
+            {
+                soma += n4;
+                if (soma >= 200)
+                {
+                    Console.WriteLine("A soma chegou a 200.");
+                }
+            }
+        }
+        break;
+    //Atividade 5
+case 5:
+        Console.WriteLine("Atividade 5");
 }
